@@ -1,0 +1,22 @@
+I)FEITO;
+II)FEITO;
+III)FEITO, porém ocorreram diversos erros, e fiz algumas alterações até que funcionou;
+IV)FEITO;
+V)FEITO, porém deu um erro com relação a 'id_professor'. O professor 3 não está declarado na tabela 'professor'.
+  O COMANDO EXECUTADO:
+    INSERT INTO turma(id_turma, num_periodo, id_professor) VALUES(3, 20201, 3);
+VI)FEITO, sem erros.
+  O COMANDO EXECUTADO:
+    INSERT INTO turma(id_turma ,num_periodo, id_disciplina) VALUES(3,20202, 1);
+VII)FEITO, porém deu erro. Erro conforme 'Screenshot_6.jpg';
+  O COMANDO EXECUTADO:
+    UPDATE disciplina SET id_disciplina = 3 WHERE id_disciplina = 2
+VIII)FEITO, sem erros.
+  O COMANDO EXECUTADO:
+    UPDATE historico SET num_faltas = 0 WHERE id_aluno = 1 AND id_turma = 1
+IX)FEITO, sem erros.
+  O COMANDO EXECUTADO:
+    DELETE FROM aluno WHERE nome_aluno = "PEDRO"
+X)FEITO, porém com erro. Erro conforme 'Screenshot_7.jpg'.
+  O COMANDO EXECUTADO:
+    DELETE FROM disciplina WHERE nome_disciplina = "BANCO DE DADOS II"
