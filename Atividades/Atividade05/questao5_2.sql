@@ -9,17 +9,17 @@ CREATE TABLE Endereco(
   cep CHAR(0) NOT NULL,
   cidade VARCHAR(30),
   uf CHAR NOT NULL,
-  id INT NOT NULL FOREIGN KEY REFERENCES Pessoa(id)
+  id INT NOT NULL REFERENCES Pessoa(id)
 );
 
 CREATE TABLE Fisica(
   sexo CHAR(1),
   cpf CHAR(11) NOT NULL,
-  id INT NOT NULL FOREIGN KEY REFERENCES Pessoa(id)
+  id INT NOT NULL REFERENCES Pessoa(id)
 );
 
 CREATE TABLE Juridica(
   sexo CHAR(1),
   cnpj CHAR (14) NOT NULL,
-  id INT NOT NULL FOREIGN KEY REFERENCES Pessoa(id)
+  id INT NOT NULL REFERENCES Pessoa(id)
 );
